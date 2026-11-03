@@ -1,7 +1,6 @@
 name: previsioni
 
 on:
-  schedule:
   workflow_dispatch:
 
 permissions:
