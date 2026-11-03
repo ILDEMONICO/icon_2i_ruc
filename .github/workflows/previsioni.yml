@@ -2,7 +2,6 @@ name: previsioni
 
 on:
   schedule:
-    - cron: "11 * * * *"
   workflow_dispatch:
 
 permissions:
