@@ -1,0 +1,367 @@
+{
+ "schema_version": 1,
+ "source": "meteohub.agenziaitaliameteo.it",
+ "model": "ICON_2I_RUC",
+ "model_run": "2026-11-09T12:00:00Z",
+ "fetched_at_utc": "2026-11-09T14:10:00Z",
+ "fetched_at_local": "2026-11-09T15:10:00+0100",
+ "timezone": "Europe/Rome",
+ "location": {
+  "latitude": 37.521499,
+  "longitude": 15.084048
+ },
+ "units": {
+  "temperature_2m": "°C",
+  "relative_humidity_2m": "%",
+  "precipitation_probability": "%",
+  "rain": "mm",
+  "cloud_cover": "%",
+  "wind_speed_10m": "km/h",
+  "wind_direction_10m": "deg",
+  "wind_gusts_10m": "km/h"
+ },
+ "source_meta": {
+  "run": "2026110912",
+  "done": [
+   "temp",
+   "rh",
+   "wind",
+   "gust",
+   "cloud",
+   "rain"
+  ],
+  "cell": {
+   "center": [
+    37.5200000000006,
+    15.07500000000016
+   ],
+   "poly": [
+    [
+     37.5100000000006,
+     15.062500000000156
+    ],
+    [
+     37.5100000000006,
+     15.087500000000162
+    ],
+    [
+     37.5300000000006,
+     15.087500000000162
+    ],
+    [
+     37.5300000000006,
+     15.062500000000156
+    ]
+   ],
+   "dist": 0.82,
+   "grid": "regular_ll",
+   "w_km": 2.2,
+   "h_km": 2.22
+  },
+  "radius_km": 10,
+  "rain_threshold_mm_h": 0.2,
+  "pop_method": "% celle entro radius_km con pioggia >= soglia"
+ },
+ "hourly": [
+  {
+   "time_utc": "2026-11-09T12:00Z",
+   "time_local": "2026-11-09T13:00",
+   "temperature_2m": 21.9,
+   "relative_humidity_2m": 52,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 100,
+   "wind_speed_10m": 8.0,
+   "wind_direction_10m": 247,
+   "wind_gusts_10m": 20.1
+  },
+  {
+   "time_utc": "2026-11-09T13:00Z",
+   "time_local": "2026-11-09T14:00",
+   "temperature_2m": 22.3,
+   "relative_humidity_2m": 55,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 76,
+   "wind_speed_10m": 5.9,
+   "wind_direction_10m": 242,
+   "wind_gusts_10m": 19.5
+  },
+  {
+   "time_utc": "2026-11-09T14:00Z",
+   "time_local": "2026-11-09T15:00",
+   "temperature_2m": 21.3,
+   "relative_humidity_2m": 55,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 83,
+   "wind_speed_10m": 5.8,
+   "wind_direction_10m": 112,
+   "wind_gusts_10m": 20.2
+  },
+  {
+   "time_utc": "2026-11-09T15:00Z",
+   "time_local": "2026-11-09T16:00",
+   "temperature_2m": 19.6,
+   "relative_humidity_2m": 60,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 92,
+   "wind_speed_10m": 6.5,
+   "wind_direction_10m": 80,
+   "wind_gusts_10m": 20.2
+  },
+  {
+   "time_utc": "2026-11-09T16:00Z",
+   "time_local": "2026-11-09T17:00",
+   "temperature_2m": 19.1,
+   "relative_humidity_2m": 72,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 80,
+   "wind_speed_10m": 3.1,
+   "wind_direction_10m": 40,
+   "wind_gusts_10m": 15.3
+  },
+  {
+   "time_utc": "2026-11-09T17:00Z",
+   "time_local": "2026-11-09T18:00",
+   "temperature_2m": 18.4,
+   "relative_humidity_2m": 75,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 67,
+   "wind_speed_10m": 3.7,
+   "wind_direction_10m": 347,
+   "wind_gusts_10m": 8.1
+  },
+  {
+   "time_utc": "2026-11-09T18:00Z",
+   "time_local": "2026-11-09T19:00",
+   "temperature_2m": 17.7,
+   "relative_humidity_2m": 76,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 79,
+   "wind_speed_10m": 3.5,
+   "wind_direction_10m": 316,
+   "wind_gusts_10m": 8.6
+  },
+  {
+   "time_utc": "2026-11-09T19:00Z",
+   "time_local": "2026-11-09T20:00",
+   "temperature_2m": 17.4,
+   "relative_humidity_2m": 82,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 13,
+   "wind_speed_10m": 5.6,
+   "wind_direction_10m": 272,
+   "wind_gusts_10m": 12.7
+  },
+  {
+   "time_utc": "2026-11-09T20:00Z",
+   "time_local": "2026-11-09T21:00",
+   "temperature_2m": 17.2,
+   "relative_humidity_2m": 82,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 64,
+   "wind_speed_10m": 7.7,
+   "wind_direction_10m": 275,
+   "wind_gusts_10m": 17.6
+  },
+  {
+   "time_utc": "2026-11-09T21:00Z",
+   "time_local": "2026-11-09T22:00",
+   "temperature_2m": 16.9,
+   "relative_humidity_2m": 81,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 68,
+   "wind_speed_10m": 8.3,
+   "wind_direction_10m": 281,
+   "wind_gusts_10m": 18.9
+  },
+  {
+   "time_utc": "2026-11-09T22:00Z",
+   "time_local": "2026-11-09T23:00",
+   "temperature_2m": 17.3,
+   "relative_humidity_2m": 75,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 100,
+   "wind_speed_10m": 8.0,
+   "wind_direction_10m": 296,
+   "wind_gusts_10m": 19.7
+  },
+  {
+   "time_utc": "2026-11-09T23:00Z",
+   "time_local": "2026-11-10T00:00",
+   "temperature_2m": 17.1,
+   "relative_humidity_2m": 76,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 100,
+   "wind_speed_10m": 5.6,
+   "wind_direction_10m": 275,
+   "wind_gusts_10m": 18.3
+  },
+  {
+   "time_utc": "2026-11-10T00:00Z",
+   "time_local": "2026-11-10T01:00",
+   "temperature_2m": 16.9,
+   "relative_humidity_2m": 76,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 81,
+   "wind_speed_10m": 4.7,
+   "wind_direction_10m": 265,
+   "wind_gusts_10m": 11.4
+  },
+  {
+   "time_utc": "2026-11-10T01:00Z",
+   "time_local": "2026-11-10T02:00",
+   "temperature_2m": 16.8,
+   "relative_humidity_2m": 77,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 59,
+   "wind_speed_10m": 5.8,
+   "wind_direction_10m": 270,
+   "wind_gusts_10m": 12.9
+  },
+  {
+   "time_utc": "2026-11-10T02:00Z",
+   "time_local": "2026-11-10T03:00",
+   "temperature_2m": 16.9,
+   "relative_humidity_2m": 77,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 67,
+   "wind_speed_10m": 6.4,
+   "wind_direction_10m": 259,
+   "wind_gusts_10m": 14.4
+  },
+  {
+   "time_utc": "2026-11-10T03:00Z",
+   "time_local": "2026-11-10T04:00",
+   "temperature_2m": 16.7,
+   "relative_humidity_2m": 77,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 62,
+   "wind_speed_10m": 6.9,
+   "wind_direction_10m": 261,
+   "wind_gusts_10m": 15.4
+  },
+  {
+   "time_utc": "2026-11-10T04:00Z",
+   "time_local": "2026-11-10T05:00",
+   "temperature_2m": 17.1,
+   "relative_humidity_2m": 75,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 81,
+   "wind_speed_10m": 8.4,
+   "wind_direction_10m": 276,
+   "wind_gusts_10m": 19.6
+  },
+  {
+   "time_utc": "2026-11-10T05:00Z",
+   "time_local": "2026-11-10T06:00",
+   "temperature_2m": 17.5,
+   "relative_humidity_2m": 73,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 82,
+   "wind_speed_10m": 9.0,
+   "wind_direction_10m": 279,
+   "wind_gusts_10m": 20.4
+  },
+  {
+   "time_utc": "2026-11-10T06:00Z",
+   "time_local": "2026-11-10T07:00",
+   "temperature_2m": 17.6,
+   "relative_humidity_2m": 72,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 100,
+   "wind_speed_10m": 8.6,
+   "wind_direction_10m": 271,
+   "wind_gusts_10m": 19.2
+  },
+  {
+   "time_utc": "2026-11-10T07:00Z",
+   "time_local": "2026-11-10T08:00",
+   "temperature_2m": 18.5,
+   "relative_humidity_2m": 70,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 93,
+   "wind_speed_10m": 7.9,
+   "wind_direction_10m": 264,
+   "wind_gusts_10m": 20.0
+  },
+  {
+   "time_utc": "2026-11-10T08:00Z",
+   "time_local": "2026-11-10T09:00",
+   "temperature_2m": 19.8,
+   "relative_humidity_2m": 67,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 85,
+   "wind_speed_10m": 9.5,
+   "wind_direction_10m": 257,
+   "wind_gusts_10m": 22.4
+  },
+  {
+   "time_utc": "2026-11-10T09:00Z",
+   "time_local": "2026-11-10T10:00",
+   "temperature_2m": 21.5,
+   "relative_humidity_2m": 62,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 89,
+   "wind_speed_10m": 11.3,
+   "wind_direction_10m": 257,
+   "wind_gusts_10m": 26.1
+  },
+  {
+   "time_utc": "2026-11-10T10:00Z",
+   "time_local": "2026-11-10T11:00",
+   "temperature_2m": 22.6,
+   "relative_humidity_2m": 59,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 79,
+   "wind_speed_10m": 15.5,
+   "wind_direction_10m": 265,
+   "wind_gusts_10m": 35.7
+  },
+  {
+   "time_utc": "2026-11-10T11:00Z",
+   "time_local": "2026-11-10T12:00",
+   "temperature_2m": 23.5,
+   "relative_humidity_2m": 57,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 44,
+   "wind_speed_10m": 16.4,
+   "wind_direction_10m": 267,
+   "wind_gusts_10m": 38.3
+  },
+  {
+   "time_utc": "2026-11-10T12:00Z",
+   "time_local": "2026-11-10T13:00",
+   "temperature_2m": 24.4,
+   "relative_humidity_2m": 53,
+   "precipitation_probability": 0,
+   "rain": 0.0,
+   "cloud_cover": 26,
+   "wind_speed_10m": 16.3,
+   "wind_direction_10m": 265,
+   "wind_gusts_10m": 38.7
+  }
+ ]
+}
